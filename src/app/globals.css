@@ -2,3 +2,77 @@
 @tailwind components;
 @tailwind utilities;
 
+html, body {
+  font-size: 14px;
+  width: 100vw;
+  height: 100vh;
+}
+
+/* Medium devices (sm: 640px and up) */
+@media (min-width: 640px) {
+  html {
+      font-size: 14px;
+  }
+}
+
+/* Large devices (lg: 1024px and up) */
+@media (min-width: 1024px) {
+  html {
+      font-size: 16px;
+  }
+}
+
+/* Extra large devices (2xl: 1536px and up) */
+@media (min-width: 1536px) {
+  html {
+      font-size: 18px;
+  }
+}
+
+h1 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--gray-09);
+}
+
+h2 {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: var(--gray-09);
+}
+
+h3 {
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--gray-09);
+}
+
+h4 {
+  font-size: 0.875rem;
+  font-weight: 700;
+  color: var(--gray-09);
+}
+
+p {
+  font-size: 1rem;
+  font-weight: 500;
+  color: var(--gray-09);
+}
+
+label {
+  font-size: 1rem;
+  font-weight: 500;
+  color: var(--gray-09);
+}
+
+ul {
+  font-size: 1rem;
+  font-weight: 500;
+  color: var(--gray-09);
+}
+
+ol {
+  font-size: 1rem;
+  font-weight: 500;
+  color: var(--gray-09);
+}
