@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 import { useGetPokemonByNameQuery } from '../../redux/api/pokemonApi';
 
 const PokemonList: React.FC = () => {
-  const [pokemonNames, setPokemonNames] = useState<string[]>(['pikachu', 'bulbasaur', 'charmander']);
+  const pokemonNames = ['pikachu', 'bulbasaur', 'charmander'];
   const [selectedPokemon, setSelectedPokemon] = useState<string | null>(null);
 
   const { data: pokemon, error, isLoading } = useGetPokemonByNameQuery(selectedPokemon!, {
